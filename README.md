@@ -1,1 +1,1 @@
-# digitalClock-AgeCalculator
+# digitalClock-ageCalculator
