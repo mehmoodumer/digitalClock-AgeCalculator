@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Clock | Age Calculator | JS Project</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 mt-4">
+        <div class="title text-center"><h1>Digital Clock | Age Calculator</h1></div>
+        <p class="desc timeNow text-center"></p>
+      </div>
+      <div class="col-md-6 mx-auto mt-5">
+        <div class="alert alert-danger" role="alert" style="display: none;"></div>
+        <form>
+          <p><label>Date of Birth: </label><input type="date" class="form-control" id="dateOfBirth" /></p>
+          <p><label>Today Date: </label><input type="text" class="form-control" id="currentDate" disabled/></p>
+          <button class="btn btn-primary">Calculate</button>
+          <div id="results"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/script.js"></script>  
+</body>
+</html>

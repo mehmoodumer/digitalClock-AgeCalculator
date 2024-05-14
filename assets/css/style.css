@@ -1,0 +1,24 @@
+.title h1 { font-weight: 700; }
+p.desc { font-size: 1.2rem;font-weight: 500; }
+#weight-guide {
+  text-align: center;
+  margin-top: 30px;
+}
+.timeNow {
+  background-color: orange;
+  min-height: 40px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  width: fit-content;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+#results {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
